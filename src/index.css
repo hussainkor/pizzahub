@@ -1,13 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #e48960;
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+}
+img {
+  width: 100%;
+}
+.header {
+  text-align: center;
+  max-width: 900px;
+}
+.menu {
+  margin: auto;
+  max-width: 768px;
+  background: #060709;
+  border-radius: 20px;
+  padding: 20px;
+}
+.menu-list {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.menu-list div {
+  flex-basis: 45%;
+}
+.item {
+  padding: 10px;
+  background: #3a3a3a;
+  margin-bottom: 20px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  border-radius: 10px;
+}
+.item-photo,
+.item-details {
+  flex: 1;
+}
+.item-photo img {
+  border-radius: 10px;
+}
+.item-details h3 {
+  margin-top: 0px;
+}
+.item-details svg {
+  fill: #fff;
+  width: 8px;
+}
+footer {
+  text-align: center;
+  padding-bottom: 20px;
+}
+.order-btn {
+  padding: 6px 12px;
+  background: #fed600;
+  border-radius: 4px;
+  color: 000;
+  border: none;
+  cursor: pointer;
+}
+.item.sold-out {
+  color: #888;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.item.sold-out img {
+  filter: grayscale();
+  opacity: 0.8;
 }

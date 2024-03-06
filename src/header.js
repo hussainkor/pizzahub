@@ -2,7 +2,7 @@
 import pizzaData from "./data";
 
 function Header() {
-    const style = { color: 'green', fontSize: '40px', textTransform: 'uppercase' };
+    const style = { color: '#F1663D', fontSize: '40px', textTransform: 'uppercase' };
     const pizzaNum = pizzaData;
     return <div className="header">
         <h1 style={style}>Fast Pizza Delivery Co.</h1>

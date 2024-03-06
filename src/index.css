@@ -5,7 +5,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #e48960;
+  background: #262a2d;
   color: #fff;
   font-family: "Open Sans", sans-serif;
 }
@@ -19,9 +19,12 @@ img {
 .menu {
   margin: auto;
   max-width: 768px;
-  background: #060709;
+  background: #000;
   border-radius: 20px;
   padding: 20px;
+}
+.menu h2 {
+  color: #f3673d;
 }
 .menu-list {
   display: flex;
@@ -34,7 +37,7 @@ img {
 }
 .item {
   padding: 10px;
-  background: #3a3a3a;
+  background: #2b2d2a;
   margin-bottom: 20px;
   display: flex;
   gap: 20px;
